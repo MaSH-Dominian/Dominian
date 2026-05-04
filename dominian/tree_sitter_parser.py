@@ -12,8 +12,8 @@ import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, Set
 
-import tree_sitter_configs
-from tree_sitter_configs import LanguageConfig
+from . import tree_sitter_configs
+from .tree_sitter_configs import LanguageConfig
 
 
 # ── Version detection ─────────────────────────────────────────────

@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: dominian
-Version: 1.0.9
+Version: 1.0.10
 Summary: Code intelligence for AI agents — scan codebases, query dependency graphs, detect cycles, find hotspots, analyze impact, and assess refactoring safety.
 Author: Dominian Contributors
 License: MIT
@@ -60,7 +60,6 @@ Requires-Dist: pytest-cov>=4.0; extra == "dev"
 Requires-Dist: ruff>=0.1.0; extra == "dev"
 Requires-Dist: mypy>=1.0; extra == "dev"
 Dynamic: license-file
-Dynamic: requires-python
 
 # Dominian
 

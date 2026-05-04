@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 from typing import List, Dict, Tuple, Optional, Any
 
-from import_resolver import resolve_import_to_file
+from .import_resolver import resolve_import_to_file
 
 
 class PythonParser:

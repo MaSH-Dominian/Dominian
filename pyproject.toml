@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dominian"
-version = "1.0.9"
+version = "1.0.10"
 description = "Code intelligence for AI agents — scan codebases, query dependency graphs, detect cycles, find hotspots, analyze impact, and assess refactoring safety."
 readme = "README.md"
 license = {text = "MIT"}

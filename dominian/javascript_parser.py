@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 from typing import Any, Dict, List, Tuple, Optional
 
-from import_resolver import resolve_import_to_file
+from .import_resolver import resolve_import_to_file
 
 
 class JavaScriptParser:

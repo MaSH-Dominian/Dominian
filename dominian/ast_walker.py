@@ -12,8 +12,8 @@ import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
 
-from tree_sitter_configs import LanguageConfig
-from import_resolver import resolve_import_to_file
+from .tree_sitter_configs import LanguageConfig
+from .import_resolver import resolve_import_to_file
 
 
 # ─────────────────────────────────────────────────────────────────────────────

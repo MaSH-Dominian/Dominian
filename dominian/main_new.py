@@ -15,14 +15,14 @@ from pathlib import Path
 from typing import Optional, List, Dict, Any
 
 # Local imports
-from database import GraphDatabase
-from __init__ import GraphDatabase, CodebaseScanner
-from adaptive_scanner import AdaptiveScanner
-from engine import QueryEngine
-from formatter import format_for_claude, format_json, format_minimal, OutputFormat
+from .database import GraphDatabase
+from .__init__ import GraphDatabase, CodebaseScanner
+from .adaptive_scanner import AdaptiveScanner
+from .engine import QueryEngine
+from .formatter import format_for_claude, format_json, format_minimal, OutputFormat
 
 # Constants
-VERSION = "1.0.7"
+VERSION = "1.0.10"
 DB_PATH = ".dominian/agentgraph.db"
 
 

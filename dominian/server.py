@@ -37,23 +37,23 @@ _DOMINIAN_SRC = os.environ.get(
 if _DOMINIAN_SRC not in sys.path:
     sys.path.insert(0, _DOMINIAN_SRC)
 
-from database import GraphDatabase
-from formatter import format_minimal, format_for_claude, format_json, OutputFormat
+from .database import GraphDatabase
+from .formatter import format_minimal, format_for_claude, format_json, OutputFormat
 
 # Optional heavy imports — may not be available in all environments
 try:
-    from adaptive_scanner import AdaptiveScanner
+    from .adaptive_scanner import AdaptiveScanner
 except ImportError:
     AdaptiveScanner = None
 
 try:
-    from engine import QueryEngine
+    from .engine import QueryEngine
 except ImportError:
     QueryEngine = None
 
 
 # ── Constants ────────────────────────────────────────────────────────
-VERSION = "1.0.7"
+VERSION = "1.0.10"
 DB_PATH = os.environ.get("DOMINIAN_DB", ".dominian/agentgraph.db")
 PROJECT_ROOT = os.environ.get("DOMINIAN_ROOT", os.getcwd())
 
@@ -62,7 +62,7 @@ PROJECT_ROOT = os.environ.get("DOMINIAN_ROOT", os.getcwd())
 mcp = FastMCP(
     "dominian",
     instructions=(
-        "Dominian Code Intelligence v1.0.7 — scan codebases, query dependency graphs, "
+        "Dominian Code Intelligence v1.0.10 — scan codebases, query dependency graphs, "
         "detect cycles, find hotspots, analyze impact, and assess refactoring safety. "
         "All output is in minimal format for optimal LLM token efficiency. "
         "Workflow: init → scan → query. Use minimal format for all tool calls."

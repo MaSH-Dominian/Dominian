@@ -12,8 +12,8 @@ from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_compl
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
-from database import GraphDatabase
-from __init__ import ParserRegistry, CodebaseScanner
+from .database import GraphDatabase
+from .__init__ import ParserRegistry, CodebaseScanner
 
 
 class AdaptiveScanner:

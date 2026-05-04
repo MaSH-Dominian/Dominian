@@ -19,11 +19,11 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, Type
 
 # Import from other modules
-from database import GraphDatabase
-from python_parser import PythonParser
-from javascript_parser import JavaScriptParser
-from other_parsers import JavaParser, GoParser, RustParser, CppParser
-from tree_sitter_parser import (
+from .database import GraphDatabase
+from .python_parser import PythonParser
+from .javascript_parser import JavaScriptParser
+from .other_parsers import JavaParser, GoParser, RustParser, CppParser
+from .tree_sitter_parser import (
     TreeSitterParser, TreeSitterRegistry, _TS_REGISTRY_AVAILABLE, get_global_registry
 )
 
