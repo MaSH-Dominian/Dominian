@@ -10,7 +10,7 @@ except ImportError:
 
 setup(
     name="dominian",
-    version="1.0.8",
+    version="1.0.9",
     packages=find_packages(),
     include_package_data=True,
     package_data={
