@@ -1,0 +1,42 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dominian database
+.dominian/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Tree-sitter build artifacts
+tree_sitter/target/
+
+# Documentation build
+docs/_build/

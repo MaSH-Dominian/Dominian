@@ -1,0 +1,5 @@
+include LICENSE
+include README.md
+include CHANGELOG.md
+recursive-include dominian *.py
+recursive-include dominian py.typed

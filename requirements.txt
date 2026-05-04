@@ -1,0 +1,15 @@
+mcp>=1.0.0
+
+# Optional: pip install dominian[community]
+#   networkx>=3.0, python-louvain>=0.16
+
+# Optional: pip install dominian[tree-sitter]
+#   tree-sitter>=0.20.0
+#   tree-sitter-python>=0.20.0
+#   tree-sitter-javascript>=0.20.0
+#   tree-sitter-typescript>=0.20.0
+#   tree-sitter-java>=0.20.0
+#   tree-sitter-go>=0.20.0
+#   tree-sitter-rust>=0.20.0
+
+# Full install: pip install dominian[all]

@@ -1,0 +1,3 @@
+[console_scripts]
+dominian = dominian.main_new:main
+dominian-mcp = dominian.server:main
